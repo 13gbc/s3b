@@ -4,7 +4,7 @@ An S3 bucket is a storage container in Amazon Simple Storage Service (S3), a clo
 
 The aclś are often misconfigured allowing people to access the data stored within them
 
-These script do the following :
+These script do the following :<BR>
 -checks if an Amazon S3 bucket exists, lists the objects in the bucket, and copies a file to the bucket.<BR>
 -downloads files from a public s3 bucket, checks to see which ones are text files, greps keywords from the files and saves the results to a file <BR>
 
