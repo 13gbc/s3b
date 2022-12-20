@@ -17,6 +17,8 @@ if ! aws s3 ls "$BUCKET_NAME" > /dev/null 2>&1; then
   exit 1
 fi
 
+mkdir $BUCKET_NAME
+cd $BUCKET_NAME
 
 # List all the files in the S3 bucket
 aws s3 ls s3://$BUCKET_NAME > file_list.txt
